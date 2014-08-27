@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ObserverPattern</OriginalElement>
+  <nodes>
+    <node x="453.575" y="352.0">ObserverPattern.DisplayElement</node>
+    <node x="275.0" y="473.0">ObserverPattern.ForecastDisplay</node>
+    <node x="0.0" y="0.0">ObserverPattern.Subject</node>
+    <node x="134.98333333333335" y="352.0">ObserverPattern.Observer</node>
+    <node x="24.0" y="145.0">ObserverPattern.WeatherData</node>
+    <node x="545.0" y="473.0">ObserverPattern.CurrentDisplay</node>
+    <node x="0.0" y="473.0">ObserverPattern.StatisticsDisplay</node>
+    <node x="0.0" y="614.0">ObserverPattern.WeatherStation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ObserverPattern.ForecastDisplay" target="ObserverPattern.DisplayElement">
+      <point x="62.5" y="-48.0" />
+      <point x="462.5" y="453.0" />
+      <point x="521.575" y="453.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.StatisticsDisplay" target="ObserverPattern.Observer">
+      <point x="-63.75" y="-48.0" />
+      <point x="63.75" y="453.0" />
+      <point x="181.48333333333335" y="453.0" />
+      <point x="-93.0" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.CurrentDisplay" target="ObserverPattern.DisplayElement">
+      <point x="61.0" y="-48.0" />
+      <point x="728.0" y="423.0" />
+      <point x="566.9083333333333" y="423.0" />
+      <point x="45.33333333333337" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.ForecastDisplay" target="ObserverPattern.Observer">
+      <point x="-62.5" y="-48.0" />
+      <point x="337.5" y="433.0" />
+      <point x="274.48333333333335" y="433.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.StatisticsDisplay" target="ObserverPattern.DisplayElement">
+      <point x="63.75" y="-48.0" />
+      <point x="191.25" y="443.0" />
+      <point x="476.2416666666667" y="443.0" />
+      <point x="-45.333333333333314" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.CurrentDisplay" target="ObserverPattern.Observer">
+      <point x="-61.0" y="-48.0" />
+      <point x="606.0" y="433.0" />
+      <point x="367.48333333333335" y="433.0" />
+      <point x="93.0" y="25.5" />
+    </edge>
+    <edge source="ObserverPattern.WeatherData" target="ObserverPattern.Subject">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="-182.5" />
+  <SelectedNodes>
+    <node>ObserverPattern.StatisticsDisplay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

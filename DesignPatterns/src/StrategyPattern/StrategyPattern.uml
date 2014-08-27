@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StrategyPattern</OriginalElement>
+  <nodes>
+    <node x="149.0" y="432.0">StrategyPattern.Squeak</node>
+    <node x="364.0" y="212.0">StrategyPattern.RedHeadDuck</node>
+    <node x="556.0" y="212.0">StrategyPattern.DecoyDuck</node>
+    <node x="84.0" y="528.0">StrategyPattern.FlyBehaviour</node>
+    <node x="238.75" y="0.0">StrategyPattern.Duck</node>
+    <node x="154.0" y="629.0">StrategyPattern.FlyWithWings</node>
+    <node x="315.0" y="528.0">StrategyPattern.DuckSimulator</node>
+    <node x="0.0" y="212.0">StrategyPattern.MallardDuck</node>
+    <node x="183.0" y="212.0">StrategyPattern.RubberDuck</node>
+    <node x="147.0" y="331.0">StrategyPattern.QuackBehaviour</node>
+    <node x="0.0" y="629.0">StrategyPattern.FlyWithNoWings</node>
+    <node x="298.0" y="432.0">StrategyPattern.MuteQuack</node>
+    <node x="0.0" y="432.0">StrategyPattern.Quack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StrategyPattern.RedHeadDuck" target="StrategyPattern.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="450.0" y="192.0" />
+      <point x="386.25" y="192.0" />
+      <point x="29.5" y="81.0" />
+    </edge>
+    <edge source="StrategyPattern.RubberDuck" target="StrategyPattern.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="263.5" y="192.0" />
+      <point x="327.25" y="192.0" />
+      <point x="-29.5" y="81.0" />
+    </edge>
+    <edge source="StrategyPattern.FlyWithNoWings" target="StrategyPattern.FlyBehaviour">
+      <point x="0.0" y="-25.5" />
+      <point x="67.0" y="604.0" />
+      <point x="111.75" y="604.0" />
+      <point x="-27.75" y="25.5" />
+    </edge>
+    <edge source="StrategyPattern.Quack" target="StrategyPattern.QuackBehaviour">
+      <point x="0.0" y="-25.5" />
+      <point x="64.5" y="407.0" />
+      <point x="169.16666666666666" y="407.0" />
+      <point x="-44.33333333333334" y="25.5" />
+    </edge>
+    <edge source="StrategyPattern.MallardDuck" target="StrategyPattern.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="81.5" y="182.0" />
+      <point x="268.25" y="182.0" />
+      <point x="-88.5" y="81.0" />
+    </edge>
+    <edge source="StrategyPattern.FlyWithWings" target="StrategyPattern.FlyBehaviour">
+      <point x="0.0" y="-25.5" />
+      <point x="212.0" y="604.0" />
+      <point x="167.25" y="604.0" />
+      <point x="27.75" y="25.5" />
+    </edge>
+    <edge source="StrategyPattern.Squeak" target="StrategyPattern.QuackBehaviour">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="StrategyPattern.MuteQuack" target="StrategyPattern.QuackBehaviour">
+      <point x="0.0" y="-25.5" />
+      <point x="362.5" y="407.0" />
+      <point x="257.83333333333337" y="407.0" />
+      <point x="44.33333333333337" y="25.5" />
+    </edge>
+    <edge source="StrategyPattern.DecoyDuck" target="StrategyPattern.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="634.0" y="182.0" />
+      <point x="445.25" y="182.0" />
+      <point x="88.5" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8307086614173228" x="252.8199052132702" y="87.74881516587678" />
+  <SelectedNodes>
+    <node>StrategyPattern.Quack</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
